@@ -77,7 +77,7 @@ void create_icosphere(int subdivisions) {
             int b = get_middle_point(faces[j][1], faces[j][2]);
             int c = get_middle_point(faces[j][2], faces[j][0]);
         
-            faces[num_faces][0] = faces[j][0];
+        faces[num_faces][0] = faces[j][0];
         faces[num_faces][1] = a;
         faces[num_faces][2] = c;
         num_faces++;
